@@ -7,12 +7,13 @@ import Box from "@mui/material/Box";
 // Header
 export const HeaderContainer = styled(Box)(({ theme }) => ({
   textAlign: "center",
-  borderBottom: "1px solid #ccc",
+  borderBottom: "1px solid #9c9999ff",
   borderRadius: theme.shape.borderRadius,
   padding: theme.spacing(2),
   fontWeight: "bold",
   fontSize: "1.5rem",
   color: "black",
+  backgroundColor: "#d3d3d3"
 }));
 
 // Add Project Form
@@ -22,6 +23,7 @@ export const FormContainer = styled(Box)(({ theme }) => ({
   padding: theme.spacing(2),
   marginBottom: theme.spacing(3),
   color: "black",
+  backgroundColor: "#d3d3d3"
 }));
 
 export const FormTextField = styled(TextField)(({ theme }) => ({
@@ -38,6 +40,7 @@ export const CardsContainer = styled(Box)(({ theme }) => ({
   border: "1px solid #ccc",
   borderRadius: theme.shape.borderRadius,
   padding: theme.spacing(2),
+  backgroundColor: "#d3d3d3"
 }));
 
 // Search Input
@@ -53,10 +56,11 @@ export const ProjectCard = styled(Card)(({ theme }) => ({
   padding: theme.spacing(1),
   marginBottom: theme.spacing(1),
   transition: "all 0.3s ease", // smooth animation
-  cursor: "pointer",           // show pointer on hover
+  backgroundColor: "#ecececff",
+  borderRadius: "15px",
 
   "&:hover": {
-    backgroundColor: "#f0f0f0", // change background
+    backgroundColor: "white", // change background
     transform: "scale(1.03)",   // slightly bigger
     boxShadow: theme.shadows[4], // add shadow
   },

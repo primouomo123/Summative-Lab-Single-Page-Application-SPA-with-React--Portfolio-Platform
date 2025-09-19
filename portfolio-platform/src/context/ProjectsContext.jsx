@@ -19,8 +19,17 @@ export function ProjectsProvider({ children }) {
     setProjects((prev) => prev.filter((project) => project.id !== id));
   };
 
+  //Edit project
+  const editProject = (id, updatedFields) => {
+    setProjects(prev => {
+      return prev.map(project => {
+        return project.id === id ? { ...project, ...updatedFields } : project
+      })
+    })
+  }; 
+
   return (
-    <ProjectsContext.Provider value={{ projects, addProject, deleteProject }}>
+    <ProjectsContext.Provider value={{ projects, addProject, deleteProject, editProject }}>
       {children}
     </ProjectsContext.Provider>
   );

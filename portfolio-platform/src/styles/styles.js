@@ -13,7 +13,8 @@ export const HeaderContainer = styled(Box)(({ theme }) => ({
   fontWeight: "bold",
   fontSize: "1.5rem",
   color: "black",
-  backgroundColor: "#d3d3d3"
+  backgroundColor: "#d3d3d3",
+  marginBottom: "1.5rem"
 }));
 
 // Add Project Form

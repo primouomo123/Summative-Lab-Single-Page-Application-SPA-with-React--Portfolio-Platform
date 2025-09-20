@@ -25,7 +25,25 @@ The app follows a clean and responsive design inspired by a given mockup and is 
 - npm
 
 ### Steps
+In Ubuntu:
 1. Clone the repository:
    ```bash
-   https://github.com/primouomo123/Summative-Lab-Single-Page-Application-SPA-with-React--Portfolio-Platform.git
-   cd portfolio-platform
+   cd Summative-Lab-Single-Page-Application-SPA-with-React--Portfolio-Platform
+   npm run dev
+   ```
+
+2. Install all dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Run the app in development mode:
+    ```bash
+    npm run dev
+    ```
+
+4. Open your browser and visit the URL displayed in the terminal (usually http://localhost:5173/) to access the app.
+
+To stop the app, press Ctrl + C in the terminal.
+
+   

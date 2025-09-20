@@ -27,5 +27,5 @@ The app follows a clean and responsive design inspired by a given mockup and is 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/project-showcase-app.git
-   cd project-showcase-app
+   git clone https://github.com/ your-username/Summative-Lab-Single-Page-Application-SPA-with-React--Portfolio-Platform.git
+   cd portfolio-platform
